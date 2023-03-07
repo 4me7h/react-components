@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+
+// import CountHooks from "./components/CountHooks";
+// import Listas from "./components/Listas";
+// import Formulario from "./components/Form";
+// import CountClass from "./components/CountClass";
+// import Crud from "./components/Crud";
+// import Routes from "./components/Routes";
+import Sass from "./components/blogDev/sass";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <span>Coloca aquí los diferentes componentes de la carpeta ./components</span>
+      {/* <Routes /> */}
+      <Sass />
+    </Fragment>
   );
 }
 
