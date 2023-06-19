@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function sass() {
+export default function Sass() {
   return (
     <div>
         <h1>Sass</h1>

@@ -1,0 +1,26 @@
+{
+    "title": "Creative Lab",
+    "subtitle": "Diseño y Desarrollo de Sitios Web",
+    "products": {
+        "item01": {
+            "nombre": "Sitio Web Básico",
+            "precio": "$3,999 MXN"
+        },
+        "item02": {
+            "nombre": "Diseño UX/UI Básico",
+            "precio": "$3,999 MXN"
+        },
+        "item03": {
+            "nombre": "Diseño UX/UI + Sitio Web",
+            "precio": "$7,999 MXN"
+        },
+        "item04": {
+            "nombre": "Menú Digital",
+            "precio": "$999 MXN"
+        },
+        "bonus": {
+            "nombre": "Hosting + Dominio",
+            "precio": "$1499 MXN"
+        }
+    }
+}

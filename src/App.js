@@ -6,14 +6,17 @@ import React, { Fragment } from "react";
 // import CountClass from "./components/CountClass";
 // import Crud from "./components/Crud";
 // import Routes from "./components/Routes";
-import Sass from "./components/blogDev/sass";
+// import Sass from "./components/blogDev/Sass";
+import AppiBasic from "./components/apisdata/AppiBasic"; 
+import Alert from "./components/alerts/Alert";
+import CreativeLab from "./components/creativelab/Home"
 
 function App() {
   return (
     <Fragment>
-      <span>Coloca aquí los diferentes componentes de la carpeta ./components</span>
-      {/* <Routes /> */}
-      <Sass />
+      <Alert />
+      <AppiBasic />
+      <CreativeLab />
     </Fragment>
   );
 }
